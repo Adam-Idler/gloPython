@@ -1,7 +1,7 @@
-# Способ 1
+# CРїРѕСЃРѕР± 1
 print('Glo Academy')
 print()
 print('Glo Academy')
 
-# Способ 2
+# РЎРїРѕСЃРѕР± 2
 print('Glo Academy', '', 'Glo Academy', sep='\n')
