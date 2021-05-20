@@ -1,11 +1,11 @@
-print('Как Вас зовут?')
+print('РљР°Рє Р’Р°СЃ Р·РѕРІСѓС‚?')
 name = input()
 
-print('Ваша фамилия?')
+print('Р’Р°С€Р° С„Р°РјРёР»РёСЏ?')
 fam = input()
 
-print('Какое Ваше отчество?')
+print('РљР°РєРѕР№ Сѓ Р’Р°СЃ РѕС‚С‡РµСЃС‚РІРѕ?')
 patronymic = input()
 
-print('Ваше ФИО:')
+print('Р’Р°С€Рµ Р¤РРћ:')
 print(fam, name, patronymic, sep='-')
