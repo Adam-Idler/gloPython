@@ -1,5 +1,7 @@
-digitOne = int(input('Введите первое целое число: '))
-digitTwo = int(input('Введите второе целое число: '))
+# -*- coding: utf-8 -*-
+
+digitOne = int(input('Р’РІРµРґРёС‚Рµ РїРµСЂРІРѕРµ С†РµР»РѕРµ С‡РёСЃР»Рѕ: '))
+digitTwo = int(input('Р’РІРµРґРёС‚Рµ РІС‚РѕСЂРѕРµ С†РµР»РѕРµ С‡РёСЃР»Рѕ: '))
 
 result = digitOne ** 2 + digitTwo ** 2
 

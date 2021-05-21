@@ -1,4 +1,6 @@
-digit = int(input('Введите целое трехзначное число: '))
+# -*- coding: utf-8 -*-
+
+digit = int(input('Р’РІРµРґРёС‚Рµ С†РµР»РѕРµ С‚СЂРµС…Р·РЅР°С‡РЅРѕРµ С‡РёСЃР»Рѕ: '))
 
 first = digit // 100
 second = digit % 100 // 10
@@ -7,6 +9,6 @@ third = digit % 10
 sum = first + second + third
 mult = first * second * third
 
-print('Сумма цифр числа', digit, 'равна', sum)
+print('РЎСѓРјРјР° С†РёС„СЂ С‡РёСЃР»Р°', digit, 'СЂР°РІРЅР°', sum)
 
-print('Произведение цифр числа', digit, 'равно', mult)
+print('РџСЂРѕРёР·РІРµРґРµРЅРёРµ С†РёС„СЂ С‡РёСЃР»Р°', digit, 'СЂР°РІРЅРѕ', mult)

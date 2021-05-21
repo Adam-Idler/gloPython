@@ -1,4 +1,6 @@
-digit = int(input('Введите целое четырехзначное число: '))
+# -*- coding: utf-8 -*-
+
+digit = int(input('Р’РІРµРґРёС‚Рµ С†РµР»РѕРµ С‡РµС‚С‹СЂРµС…Р·РЅР°С‡РЅРѕРµ С‡РёСЃР»Рѕ: '))
 
 first = digit // 1000
 second = digit // 100 % 10
@@ -7,4 +9,4 @@ fourth = digit % 10
 
 maxDigit = max(first, second, third, fourth)
 
-print('У числа', digit, 'максимальная цифра равна', maxDigit)
+print('РЈ С‡РёСЃР»Р°', digit, 'РјР°РєСЃРёРјР°Р»СЊРЅР°СЏ С†РёС„СЂР° СЂР°РІРЅР°', maxDigit)

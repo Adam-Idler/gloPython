@@ -1,8 +1,10 @@
-digitOne = int(input('Введите первое целое число: '))
-digitTwo = int(input('Введите второе целое число: '))
+# -*- coding: utf-8 -*-
 
-print(digitOne, 'умноженное на', digitTwo, 'равно', digitOne * digitTwo)
-print(digitOne, 'деленное на', digitTwo, 'равно', digitOne / digitTwo)
-print(digitOne, 'нацело деленное на', digitTwo, 'равно', digitOne // digitTwo)
-print('Остаток от деления', digitOne, 'на', digitTwo, 'равен', digitOne % digitTwo)
-print(digitOne, 'в степени', digitTwo, 'равно', digitOne ** digitTwo)
+digitOne = int(input('Р’РІРµРґРёС‚Рµ РїРµСЂРІРѕРµ С†РµР»РѕРµ С‡РёСЃР»Рѕ: '))
+digitTwo = int(input('Р’РІРµРґРёС‚Рµ РІС‚РѕСЂРѕРµ С†РµР»РѕРµ С‡РёСЃР»Рѕ: '))
+
+print(digitOne, 'СѓРјРЅРѕР¶РµРЅРЅРѕРµ РЅР°', digitTwo, 'СЂР°РІРЅРѕ', digitOne * digitTwo)
+print(digitOne, 'РґРµР»РµРЅРЅРѕРµ РЅР°', digitTwo, 'СЂР°РІРЅРѕ', digitOne / digitTwo)
+print(digitOne, 'РЅР°С†РµР»Рѕ РґРµР»РµРЅРЅРѕРµ РЅР°', digitTwo, 'СЂР°РІРЅРѕ', digitOne // digitTwo)
+print('РћСЃС‚Р°С‚РѕРє РѕС‚ РґРµР»РµРЅРёСЏ', digitOne, 'РЅР°', digitTwo, 'СЂР°РІРµРЅ', digitOne % digitTwo)
+print(digitOne, 'РІ СЃС‚РµРїРµРЅРё', digitTwo, 'СЂР°РІРЅРѕ', digitOne ** digitTwo)

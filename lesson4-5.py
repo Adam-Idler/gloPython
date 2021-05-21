@@ -1,7 +1,9 @@
-digit = int(input('Введите количество секунд: '))
+# -*- coding: utf-8 -*-
+
+digit = int(input('Р’РІРµРґРёС‚Рµ РєРѕР»РёС‡РµСЃС‚РІРѕ СЃРµРєСѓРЅРґ: '))
 
 hours = digit // 3600
 minutes = digit // 60 % 60
 sec = digit % 60
 
-print(digit, 'секунд - это', hours, 'час(ов)', minutes, 'минут(а/ы)', sec, 'секунд(а)')
+print(digit, 'СЃРµРєСѓРЅРґ - СЌС‚Рѕ', hours, 'С‡Р°СЃ(РѕРІ)', minutes, 'РјРёРЅСѓС‚(Р°/С‹)', sec, 'СЃРµРєСѓРЅРґ(Р°)')
