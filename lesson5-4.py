@@ -1,4 +1,4 @@
-weight = int(input('Ââåäèòå âåñ äûíè: '))
+weight = int(input('Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð²ÐµÑ Ð´Ñ‹Ð½Ð¸: '))
 
 if weight > 2 and weight % 2 == 0:
     print('YES')
