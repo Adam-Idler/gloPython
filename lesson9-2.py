@@ -1,17 +1,6 @@
-# -*- coding: utf-8 -*-
+s = str(input('Введите символ: '))
 
-number = int(input('Р’РІРµРґРёС‚Рµ РЅР°С‚СѓСЂР°Р»СЊРЅРѕРµ С‡РёСЃР»Рѕ: '))
-
-i = 1
-flag = 0
-
-while (i < number):
-    if (number % i == 0 and i != 1 and i != number):
-        flag = 1
-        
-    i += 1
-
-if (flag != 0):
-    print('NO')
-else:
+if s.isdigit():
     print('YES')
+else:
+    print('NO')
